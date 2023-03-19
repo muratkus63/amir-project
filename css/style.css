@@ -1,0 +1,323 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: #000021;   
+    color: #fff;
+    box-sizing: border-box;
+}
+.header{
+    margin-top: 30px;
+    background-color: rgb(40, 35, 108);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+    padding: 10px;
+    color: darkgrey;
+
+}
+.header i {
+    margin: 10px;
+}
+.header p{
+    margin: 10px;
+    font-size: 13px;
+}
+.nav-item{
+    margin-top: 50px;
+    padding: 40px;
+}
+.nav-item1{
+    font-weight: bold;
+
+}
+.nav-item2{
+    font-size: 20px;
+}
+.nav-item div:first-child{   
+    font-size: 80px ;
+}
+
+/* Buttons */
+
+.div-button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.btn{
+    font-size: large;
+    color: #fff;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px;
+    border-radius: 58px;
+}
+.btn-1{
+    background-color:rgb(143, 142, 219);
+}
+.btn-1:hover {
+    background-color:rgb(123, 118, 213);
+}
+.btn-2{
+    border: 5px solid #86CFD0;
+}
+.btn-2:hover{
+    border: 5px solid #86CFD0;
+    background-color: hsl(240, 100%, 10%);
+}
+.col-7 .image{
+    position: absolute;
+    height: 650px;
+    width: 500px;
+    margin-top: -30px;
+    margin-left: 200px;
+    top: 120px;
+}
+.feature{
+    font-size: 20px;
+    padding: 10px;
+}
+.feature span{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.forbes{
+    display: flex;
+    padding: 25px;
+    background-color: rgb(40, 35, 108);
+    border-radius: 15px;
+
+}
+.forbes-1{
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    color: grey;
+    padding-left: 10px;
+}
+
+.forbes-2{
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.homes{
+    background: linear-gradient(93.42deg, rgba(143, 142, 219, 0.4) 22.31%, rgba(40, 35, 108, 0.4) 93.25%);
+    margin-top:45px ;
+    border-radius: 10px;
+}
+.homes p{
+    font-weight: bold;
+    font-size: 48px;
+    padding:15px ;
+}
+.green{
+    background: #4DD94A;
+    border-radius: 58px;
+    margin: 30px;
+}
+.green p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 20px;
+    text-align: center;
+}
+.images{
+    padding: 50px;
+}
+.images img{
+    width: 500px;
+    border-radius: 40%;
+}
+.famagusta{
+    padding: 50px;
+}
+.famagusta-item1{
+    font-weight: bold;
+    font-size: 90px;
+}
+.famagusta-item2{
+    font-size: 20px;
+}
+.fmg-btn{
+    text-align: center;
+    align-items: flex-start;
+}
+.social{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.icon{
+    background-color: #fff;
+    border-radius: 100px;
+    margin: 20px 100px;
+    padding: 20px;
+    color: #000021;
+    font-size: 50px;
+}
+.icon  i{
+    padding-left:150px;
+}
+.triangle, .triangle:before, .triangle:after { width: 40em; height: 40em;}
+.triangle {
+	overflow: hidden;
+	position: relative;
+	margin: -20em -2em -15em;
+    border-radius: 20%;
+	transform: translateY(50%) rotate(90deg) skewY(30deg) scaleX(.866);
+	cursor: pointer;
+	pointer-events: none;
+} 
+.triangle:before, .triangle:after {
+	position: absolute;
+	background: #D9D9D9;
+	pointer-events: auto;
+	content: '';
+}
+.triangle:before {
+	border-radius: 20% 20% 20% 53%;
+	transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%) 
+			skewX(30deg) scaleY(.866) translateX(-24%);
+}
+.triangle:after {
+	border-radius: 20% 20% 53% 20%;
+	transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%) 
+			skewX(-30deg) scaleY(.866) translateX(24%);
+}
+.for-rent{
+    height: 600px;
+    margin-top: 40px;
+}
+.car-btn{
+    border: 7px solid #FFFFFF;
+    border-radius: 58px;
+    background-color: #000021;
+    color: #fff;
+    padding: 17px 58px;
+    margin: 0 170px 30px 170px;
+}
+.car-photo{
+    width: 447px;
+    height: 299px;  
+    border-radius: 400px;
+    margin-left: 30px;
+}
+.developer{
+    margin-left: 70px;
+}
+.developer-1{
+    position: absolute;
+    width: 559px;
+    height: 560px;
+    border-radius: 500px;
+    margin-left: 20px;
+}
+.developer-2{
+    width: 584px;
+    height: 440px;
+    border-radius: 20px 20px 100px 20px;
+    margin: 60px 0 40px 400px;
+}
+.Canada{
+    margin-top: 100px;
+}
+.canada{
+    position: absolute;
+    border-radius: 30px;
+    width: 204px;
+    height: 149px;
+    margin-left: 150px;
+    margin-top: -50px;
+}
+.c-city{
+    border-radius: 100px;
+    width: 843px;
+    height: 520px;
+    margin-left: 200px;
+}
+.c-city1{
+   position: relative;
+   width: 354px;
+   height: 260px;
+   border-radius: 30px 30px 30px 150px;
+   margin-left: 780px;
+   margin-top: -150px;
+}
+
+.col-6 .emu{
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    margin-top: -100px;
+    margin-left: 50px;
+}
+.col-6 .neu{
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    margin-top:-100px ;
+    margin-left: 400px;
+}
+.card{
+    display: inline-block;
+    margin: 70px;
+    width: 345px;
+    height: 350px;
+    background: #100E4B;
+    border-radius: 40px;
+    padding: 30px;
+}
+.card img{
+    margin-top: -75px;
+    margin-left: 50px;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+.card .users{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.card-text{
+    font-weight: 400;
+    font-size: 20px;
+    text-align:center ;
+}
+
+.footer{
+    position: absolute;
+    width: 1065px;
+    height: 287px;
+    background: linear-gradient(93.42deg, #8080D7 23.46%, #AAD9D9 93.25%);
+    border-radius: 10px;
+    left: calc(50% - 1065px/2 + 0.5px);
+}
+.footer .footer-1{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 100px;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    text-transform: uppercase;
+    padding: 17px 58px;
+    gap: 10px;
+    background: #000000;
+    border-radius: 58px;
+    margin: 70px 200px;
+    font-size: 20px;
+    padding: 10px 30px 10px 180px;
+}
+
